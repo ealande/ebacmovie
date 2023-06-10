@@ -1,0 +1,27 @@
+@use 'variables';
+
+.header {
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1;
+
+    &__container{
+        padding: 8px 36px;
+        display: flex;
+        justify-content: space-between;
+        
+        @media (max-width: 768px){
+            padding:0;
+        }
+    }
+
+    &__logo {
+    height: 40px;
+    cursor: pointer;
+
+        @media (max-width: 768px){
+            max-width: 64px;
+        }
+    }
+}
