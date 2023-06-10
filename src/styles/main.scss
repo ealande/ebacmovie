@@ -1,6 +1,8 @@
 @use 'hero';
 @use 'variables';
 @use 'header';
+@use 'movie';
+@use 'footer';
 
 
 *{
@@ -8,12 +10,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'VT323', monospace;
-    color: aquamarine;
+    color: variables.$mainColorText;
 }
 
 body {
     background-color: variables.$bgcolor;
 }
+
 
 #canvasContainer {
     position: absolute;

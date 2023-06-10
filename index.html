@@ -9,32 +9,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lobster&family=Pacifico&family=Roboto:wght@400;700;900&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
-    
-</head>
-<body>
-    <header>
-        <div>
-            <div class="header__container">
-                    <img class="header__logo" src="dist/images/menu/nospoon.png" alt="there is no hamburguermenu" onclick="alert('There is no spoon(menu)')">
+
+    </head>
+    <body>
+        
+            <header>
+                <div>
+                    <div class="header__container">
+                            <img class="header__logo" src="dist/images/menu/nospoon.png" alt="there is no hamburguermenu" onclick="alert('There is no spoon(menu)')">
+                    </div>
+                </div>
+        
+            </header>
+            <section class="hero">
+                <div>
+                    <img class="hero__image" src="dist/images/logo/matrixherologo.png">
+                </div>
+            </section>
+            <section class="movie">
+                <div class="movie__container">
+                    <img id="movie__container__image" src="dist/images/movieimages/neoexhausted.jpg">
+                </div>
+                <div class="movie__container__text">
+                    <h1 class="movie__container__text__title">Matrix Movie</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus ab exercitationem nostrum blanditiis cum? Assumenda maiores, vero nesciunt eos maxime numquam ab, facere nobis, quasi dicta veritatis ea blanditiis?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi neque, expedita commodi iste facere aperiam amet minima quos doloribus quas illo saepe architecto aliquam esse perspiciatis enim! Amet, rem esse.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quisquam iste numquam commodi, consectetur aut impedit, nulla exercitationem, possimus soluta animi? Minus, praesentium optio veritatis officia at eveniet eos ea!
+                    </p>
+                </div>
+            </section>
+        
+            <canvas id="canvasContainer"></canvas>
+            <footer class="footer">
+                <div class="footer__container">
+                <img class="footer__logo" src="/dist/images/logo/matrixherologo.png" alt="matrixlogo">
+                <ul class="footer__links">
+                    <li class="footer__links__item">
+                        <div class="language-selector">
+                            <img src="./dist/images/globe.svg" alt="worldglobe">
+                            <select>
+                                <option selected>English</option>
+                                <option>Portuguese-BR</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="footer__links__item">
+                        <a href="#" class="text--small">Terms of service</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a href="#" class="text--small">Red Pill Agreement</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a href="#" class="text--small">Matrix Data Security</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a href="#" class="text--small">Simulation Ads</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a href="#" class="text--small">Supported Matrix Devices</a>
+                    </li>
+                </ul>
+                <p class="text--small">
+                    © 1999 Matrix, Warner Bros Company. All rights reserved. Paid (with your life energy) simulation service.
+                </p>
+                <p class="text--small">
+                    *This is not a simulation.<br/>
+                    *Apple Vision Pro is supported.
+                </p>
             </div>
-        </div>
-
-    </header>
-    <section class="hero">
-        <div>
-            <img class="" src="dist/images/logo/matrixherologo.png">
-        </div>
-    </section>
-    <section class="movie">
-        <div>
-            <img class="" src="dist/images/movieimages/neoexhausted.jpg">
-        </div>
-        testetestetetkmetjeijoweijoweijo
-    </section>
-
-    <canvas id="canvasContainer"></canvas>
-
-<script src="matrixrain.js"></script>
-<script src="scroll.js"></script>
+            </footer>
+    <script src="slowimages.js"></script>
+    <script src="matrixrain.js"></script>
+    <script src="scroll.js"></script>
 </body>
 </html>
